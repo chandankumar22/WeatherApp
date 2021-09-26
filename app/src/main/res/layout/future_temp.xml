@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="0dp"
+    android:id="@+id/cardview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    tools:targetApi="jelly_bean"
+
+
+
+    >
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/rootid"
+
+
+    android:layout_width="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textDirection="firstStrongLtr"
+
+        tools:targetApi="jelly_bean_mr1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/futureDateid"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="24th june,2017"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textSize="20sp"
+            android:includeFontPadding="true"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/futureTempid"
+        android:text="333"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="#311B92"
+        android:fontFamily="monospace"
+        android:layout_gravity="center"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+       />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:id="@+id/futureIconid"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/a02n"/>
+
+            <!--android:src=""-->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/futureDescid"
+            android:text="Desccription"
+            android:textColor="#FF6D00"
+            android:textAlignment="center"
+            android:layout_gravity="fill"
+            android:textColorHighlight="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingTop="5dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
+

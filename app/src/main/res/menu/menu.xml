@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/settingsid"
+    android:title="Settings"
+    android:icon="@drawable/settings">
+
+</item>
+    <item
+        android:id="@+id/aboutid"
+        android:title="About"
+        android:icon="@drawable/info">
+
+    </item>
+    <item
+        android:id="@+id/RateItid"
+        android:title="Rate"
+        android:icon="@drawable/rate">
+
+    </item>
+    <item android:title="Recent Locations"
+        android:icon="@drawable/lllloc">
+
+    </item>
+
+</menu>

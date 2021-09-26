@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@mipmap/search_icon"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        android:icon="@drawable/refreshh"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/setAsDefault"
+        android:title="Default"
+        android:icon="@mipmap/set_as_deafult"
+        app:showAsAction="always">
+
+    </item>
+
+
+</menu>
